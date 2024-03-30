@@ -1,0 +1,50 @@
+<html>
+
+        <head>
+                <title> CALCULADORA </title>
+                <link rel='stylesheet' type='text/css' media='screen' href='/style.css'>
+
+               
+                <link rel="preconnect" href="https://fonts.gstatic.com" >
+                <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+
+        </head>
+
+            <body>
+                <h1> CALCULADORA CIENTIFICA </h1>
+                <div id="appBog">
+                    <form name="CALCULATOR">
+                       
+
+                            <input type="textfield" name="ans" value="" autocomplete="off" readonly >
+
+                            <input type="reset" value="AC"class="orange">
+                            <input type="button" value="-/+"onclick="document.CALCULATOR.ans.value+='-/+'" class="orange">
+                            <input type="button" value="%" onclick="document.CALCULATOR.ans.value+='%'" class="orange">
+                            <input type="button" value="/" onclick="document.CALCULATOR.ans.value+='/'" class="orange">
+                            <br>
+                            <input type="button" value="7" onclick="document.CALCULATOR.ans.value+='7'" class="gray">
+                            <input type="button" value="8" onclick="document.CALCULATOR.ans.value+='8'" class="gray">
+                            <input type="button" value="9" onclick="document.CALCULATOR.ans.value+='9'" class="gray">
+                            <input type="button" value="X" onclick="document.CALCULATOR.ans.value+='*'" class="orange">
+                            <br>
+                            <input type="button" value="4" onclick="document.CALCULATOR.ans.value+='4'" class="gray">
+                            <input type="button" value="5" onclick="document.CALCULATOR.ans.value+='5'" class="gray">
+                            <input type="button" value="6" onclick="document.CALCULATOR.ans.value+='6'" class="gray">
+                            <input type="button" value="-" onclick="document.CALCULATOR.ans.value+='-'" class="orange">
+                            <br>
+                            <input type="button" value="1" onclick="document.CALCULATOR.ans.value+='1'" class="gray">
+                            <input type="button" value="2" onclick="document.CALCULATOR.ans.value+='2'" class="gray">
+                            <input type="button" value="3" onclick="document.CALCULATOR.ans.value+='3'" class="gray">
+                            <input type="button" value="+" onclick="document.CALCULATOR.ans.value+='+'" class="orange">
+                            <br>
+                            <input type="button" value="0" onclick="document.CALCULATOR.ans.value+='0'" class="gray">
+                            <input type="button" value="," onclick="document.CALCULATOR.ans.value+=','" class="orange">
+                            <input type="button" value="=" onclick="document.CALCULATOR.ans.value=eval(document.CALCULATOR.ans.value)" class="orange">
+                    </form>
+
+                </div>
+
+            </body>
+
+</html>
